@@ -670,4 +670,6 @@
     <!-- Enable Smart charging. -->
     <bool name="config_deviceSupportSmartCharging">true</bool>
 
+    <!-- Whether device supports internal audio recording -->
+    <bool name="config_hasInternalAudioRecordingSupport">true</bool>
 </resources>
