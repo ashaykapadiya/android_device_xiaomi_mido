@@ -25,7 +25,7 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
 
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res \
-    $(TOP)/packages/apps/NitrogenSettings/res
+    $(TOP)/packages/resources/devicesettings/res
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
