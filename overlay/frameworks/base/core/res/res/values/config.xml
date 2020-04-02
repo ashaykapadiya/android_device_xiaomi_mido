@@ -667,4 +667,6 @@
     <!-- Enable Smart charging. -->
     <bool name="config_deviceSupportSmartCharging">true</bool>
 
+    <!-- Flashlight on power button -->
+    <integer name="config_flashlightProximityTimeout">-1</integer>
 </resources>
