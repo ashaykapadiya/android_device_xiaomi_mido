@@ -11,3 +11,5 @@ allow system_server sysfs_vibrator:file read;
 
 allow system_server persist_camera_prop:file { read open getattr };
 
+# Smart charger
+allow system_server sysfs_battery_supply:file rw_file_perms;
