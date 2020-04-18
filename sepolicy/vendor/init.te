@@ -14,7 +14,7 @@ allow init sysfs_leds:lnk_file read;
 
 allow init sysfs:file setattr;
 
-allow init vendor_file:file { execute execute_no_trans };
+allow init vendor_file:file execute;
 
 
 
