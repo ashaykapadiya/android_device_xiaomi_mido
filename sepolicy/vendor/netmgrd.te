@@ -3,3 +3,5 @@ set_prop(netmgrd, vendor_xlat_prop)
 allow netmgrd self:capability sys_admin;
 
 
+
+

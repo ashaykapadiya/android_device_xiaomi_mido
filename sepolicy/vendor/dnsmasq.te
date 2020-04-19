@@ -1,0 +1,1 @@
+allow dnsmasq self:capability sys_admin;
