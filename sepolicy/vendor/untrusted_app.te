@@ -1,4 +1,5 @@
-allow untrusted_app theme_prop:file { read open };
+allow untrusted_app theme_prop:file { read open getattr };
 allow untrusted_app persist_camera_prop:file read;
+
 
 
