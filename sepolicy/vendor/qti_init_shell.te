@@ -7,5 +7,4 @@ allow qti_init_shell bluetooth_data_file:file r_file_perms;
 # Required for FM
 allow qti_init_shell self:socket create;
 
-allow qti_init_shell system_data_file:dir { getattr write read setattr };
-
+allow qti_init_shell system_data_file:dir { getattr write read setattr open };

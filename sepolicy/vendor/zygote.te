@@ -1,2 +1,2 @@
-allow zygote theme_prop:file { read open };
+allow zygote theme_prop:file { read open getattr };
 
