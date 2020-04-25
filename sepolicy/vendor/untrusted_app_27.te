@@ -1,0 +1,5 @@
+allow untrusted_app_27 adsprpcd_file:dir getattr;
+allow untrusted_app_27 adsprpcd_file:filesystem getattr;
+allow untrusted_app_27 firmware_file:dir getattr;
+allow untrusted_app_27 firmware_file:filesystem getattr;
+allow untrusted_app_27 rootfs:dir read;
