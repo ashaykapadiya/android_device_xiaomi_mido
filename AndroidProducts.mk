@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_mido.mk
+    $(LOCAL_DIR)/titanium_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_mido-user \
-    lineage_mido-userdebug \
-    lineage_mido-eng
+    titanium_mido-user \
+    titanium_mido-userdebug \
+    titanium_mido-eng
