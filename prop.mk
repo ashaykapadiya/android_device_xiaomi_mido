@@ -1,6 +1,11 @@
 #
 # system.prop for mido
 #
+
+# Pixel identification
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.build.fingerprint=google/coral/coral:10/QQ2A.200501.001.B2/6352890:user/release-keys
+
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
 af.fast_track_multiplier=2 \
