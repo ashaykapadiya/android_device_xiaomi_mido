@@ -253,3 +253,7 @@ ro.lmk.downgrade_pressure=100 \
 ro.lmk.kill_heaviest_task=true \
 ro.lmk.kill_timeout_ms=100 \
 ro.lmk.use_minfree_levels=true
+
+# Zygote preforking
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.device_config.runtime_native.usap_pool_enabled=true
