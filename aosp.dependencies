@@ -1,6 +1,20 @@
 [
+  {
+   "remote":"github",
+   "repository": "device_xiaomi_mido",
+   "target_path": "device/xiaomi/mido"
+   "branch": "shapeshift"
+ },
  {
-   "repository": "android_kernel_xiaomi_mido",
+   "remote":"github",
+   "repository": "kernel_xiaomi_mido",
    "target_path": "kernel/xiaomi/mido"
- }
+   "branch": "ten"
+ },
+ {
+    "remote":"github"
+    "repository": "vendor_xiaomi_mido",
+    "target_path": "vendor/xiaomi",
+    "branch":"ten"
+  }
 ]
