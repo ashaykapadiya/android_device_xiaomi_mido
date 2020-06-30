@@ -145,7 +145,7 @@ PRODUCT_PACKAGES += \
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
-    NexusLauncherRelease
+    OPLauncher2
 
 # Display
 PRODUCT_PACKAGES += \
