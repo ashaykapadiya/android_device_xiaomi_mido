@@ -54,3 +54,8 @@ BUILD_FINGERPRINT := "xiaomi/mido/mido:7.0/NRD90M/V9.6.1.0.NCFMIFD:user/release-
 
 # Build without Lawnchair
 export LAWNCHAIR_OPTOUT := true
+
+# Build OOS ScreenRecorder
+TARGET_OOS_RECORDER := true
+
+
