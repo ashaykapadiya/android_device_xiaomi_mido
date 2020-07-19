@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
 # Inherit some common NitrogenOS stuff.
-$(call inherit-product, vendor/nitrogen/config/common.mk)
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
