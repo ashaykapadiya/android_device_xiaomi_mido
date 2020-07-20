@@ -65,4 +65,12 @@ void vendor_load_properties()
     property_set("dalvik.vm.heaptargetutilization", "0.75");
     property_set("dalvik.vm.heapminfree", heapminfree);
     property_set("dalvik.vm.heapmaxfree", "8m");
+
+    // fingerprint
+    property_override("ro.build.description", "mido-user 7.0 NRD90M V9.6.1.0.NCFMIFD release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/flame/flame:10/QQ3A.200705.002/6506677:user/release-keys");
+
+    // privapp permisison control
+    property_override("ro.control_privapp_permissions", "log");
+
 }
