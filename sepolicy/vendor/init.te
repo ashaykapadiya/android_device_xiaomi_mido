@@ -12,6 +12,9 @@ allow init adsprpcd_file:filesystem { mount relabelfrom relabelto };
 # LEDs
 allow init sysfs_leds:lnk_file read;
 
+# Smart Charging
+allow init sysfs_battery_supply:file { setattr };
+
 allow init sysfs:file setattr;
 
 allow init vendor_data_file:file lock;
