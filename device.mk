@@ -141,6 +141,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
     camera.msm8953 \
     libmm-qcamera \
+    libui_shim \
     Snap
 
 # Consumerir
@@ -225,7 +226,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml \
-    libui_shim
+    libvt_shim
 
 # Input
 PRODUCT_COPY_FILES += \
